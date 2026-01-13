@@ -1,8 +1,9 @@
 module vline
 
-go 1.23.4
+go 1.24.0
 
 require (
+	go.uber.org/zap v1.27.0
 	gorm.io/driver/sqlserver v1.5.4
 	gorm.io/gorm v1.25.12
 )
@@ -15,7 +16,6 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/microsoft/go-mssqldb v1.8.0 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/crypto v0.32.0 // indirect
-	golang.org/x/text v0.21.0 // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 )
